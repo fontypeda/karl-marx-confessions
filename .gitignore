@@ -10,10 +10,12 @@ package-lock.json
 /out-tsc
 
 # assets
-/src/assets/
-/src/assets/tiles
+
 /src/assets/*jpg
+/src/assets/tiles/
+/src/assets/fonts/
 /src/assets/combi_pics/
+
 # dependencies
 /node_modules
 
