@@ -54,8 +54,8 @@ export class AppComponent {
 
   public openInfoDialog() {
     this.dialog.open(ConfessionsInfoDialogComponent,  {
-      height: '400px',
-      width: '600px',
+      //height: '400px',
+      width: '800px',
     });
   }
 }
