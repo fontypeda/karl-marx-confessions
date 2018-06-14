@@ -11,6 +11,8 @@
 }
 
 .header {
+  height: 100px;
+  line-height: 0px;
   display: flex;
 }
 
@@ -48,13 +50,14 @@ div.arrow-button {
 div.leaflet-box {
   /*width: 60%;*/
   width: 700px;
+  padding-right: 50px;
 }
 
 h1 {
   text-align: center;
   color: #00a6bc;
-  position: absolute;
   width: 100%;
+  align-self: center;
 }
 
 img.arrow {
@@ -88,7 +91,7 @@ app-list-item {
 
 .info-button {
   display: flex;
-  align-items: center; 
+  align-items: center;
 }
 .custom-icon {
   padding: 16px;

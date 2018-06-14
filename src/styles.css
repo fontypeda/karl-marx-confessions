@@ -95,11 +95,11 @@ h2 {
 .custom-button-main {
   color: #00a6bc;
   border: 3px solid #00a6bc;
-  font-size: 1.5rem;
+  font-size: 17px;
+  margin-top: 21px;
   letter-spacing: 1px;
   padding: 1rem;
-  width: 100%;
-  max-width: 250px;
+  min-width: 250px;
   background-color: transparent;
 }
 
@@ -108,4 +108,16 @@ p {
   font-family: 'maax';
   font-size: 1.2rem;
   letter-spacing: 0.8;
+}
+
+.leaflet-container {
+    background: #171717;
+    outline: 0;
+}
+
+.mat-dialog-container {
+    background: #000;
+    color: rgba(0,0,0,.87);
+    border: 5px solid #01a6bd;
+    line-height: 30px;
 }
